@@ -41,7 +41,38 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 <script>
 
-	//YOUR JAVASCRIPT GOES HERE
+	// Pasted my JavaScript variable/function section from App 3 into App 4 and changed "Allergy" to "Psoriasis", and "Cold" to "Eczema".
+
+       /*  This section of the code includes functions that direct the code to add points to either the Eczema category or Psoriasis category to determine a diagnosis once the points are added up at the end of the survey. */
+	
+       // Changed all variables from allergy_count to psoriasis_count all in one step by right clicking on the variable allergy_count, Selecting "Rename Symbol", and then applying the change to all allergy_count variables.
+       // Same process repeated for changing cold_count to eczema_count
+
+	      var psoriasis_count = 0;
+        var eczema_count = 0;
+
+
+        function psoriasisAdd(){
+            psoriasis_count = psoriasis_count + 1;
+        }
+
+        function eczemaAdd(){
+            eczema_count = eczema_count + 1;
+        } 
+
+	// this next function made to calculate and display results on the results page
+	
+	function showResults(){
+		var total = eczema_count + psoriasis_count;
+		var psoriasis_percent = psoriasis_count/total;
+		var eczema_percent = eczema_count/total;
+		
+		var para=document.getElementById("res");
+		resultText = "Possibility of Psoriasis is: " + psoriasis_percent*100 + "%<br> Possibility of Eczema is: " + eczema_percent*100 + "%<br>"
+		para.innerHTML=resultText;
+		return resultText;
+	}
+
 
 </script>	
 
