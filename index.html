@@ -102,7 +102,33 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 <body>
 	
 	<!-- HERE IS WHERE ALL OF YOUR HTML PAGES GO -->
-	REPLACE THIS TEXT
+	<div id="header" class="w3-container w3-flat-carrot">
+      <h1>Psoriasis or Eczema?</h1>
+  </div>
+
+  <div id="content" class="w3-container">
+      <p>Are you wondering whether you have Psoriasis or Eczema, but can't seem to tell the difference? Answer a short series of questions to help determine a diagnosis!</p>
+      
+      <a href="#one" class="w3-btn w3-grey w3-round"> Get Started </a>
+
+      <p>The following code has been developed by students and/or researchers of the Freshman Research Initiative DIY Diagnositcs Stream at the University of Texas at Austin. This code is shared for demonstration purposes and should not be considered a product -- it is for entertainment purposes only. Any user of this code does so at their own risk. Members of the DIY Stream, FRI, and The University of Texas system are not liable for anything related to this code.</p>
+
+      <p>THIS CODE SHOULD NOT BE USED TO DIAGNOSE ANY KIND OF MEDICAL CONDITION.</p>
+
+      <div class="page" id="one">
+            <!-- Working on Question 1, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App -->
+          <div id="header" class="w3-container w3-flatcarrot">
+          <h1>Question 1</h1>
+          </div>
+
+          <div id="content" class="w3-container">
+              <p>Where on the body are you experiencing symptoms?</p>
+              <a href="#two" onclick="psoriasisAdd();" class="w3-btn w3-black"> Affects skin on elbows, knees, scalp, lower back and trunk</a>
+              <a href="#two" onclick="eczemaAdd();" class="w3-btn w3-black"> Affects skin folds such as inner elbows and behind knees, as well as face and hands</a>
+          </div>
+
+      </div>   
+  </div>
 	
 </body>
 </html>
