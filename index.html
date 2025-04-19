@@ -182,7 +182,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
           <div id="content" class="w3-container">
                 <p>How old are you? Usually, age plays a significant role in the diagnostic process.</p>
-                <a href="#six" onclick="eczemaAdd();" class="w3-btn w3-black"> 0-15: Eczema starts in babies and young children, but children will eventually grow out of it with proper treatment.</a>
+                <!-- Changed "class="w3-btn w3-black"" to "class="w3-btn w3-black w3-margin-bottom"" as the buttons were sitting right on top of one another, and I wanted to create a gap on the page between the two buttons-->
+                <a href="#six" onclick="eczemaAdd();" class="w3-btn w3-black w3-margin-bottom"> 0-15: Eczema starts in babies and young children, but children will eventually grow out of it with proper treatment.</a> 
                 <a href="#six" onclick="psoriasisAdd();" class="w3-btn w3-black"> 15 or older: Psoriasis is more common in individuals 15 and older, and it is a lifelong condition.</a>
           </div>
       </div>
