@@ -143,7 +143,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
   </div>
 
       <div class="page" id="one">
-            <!-- Working on Question 1, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App -->
+            <!-- Working on Question 1, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App. Question 1 is visible! -->
           <div id="header" class="w3-container w3-flatcarrot">
             <h1>Question 1</h1>
           </div>
@@ -171,7 +171,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
       </div>
 
       <div class="page" id="three">
-            <!-- Working on Question 3, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App -->
+            <!-- Working on Question 3, going to save on VS Code, push changes from GitHub Desktop to Web, and changes are reflected in App -->
           <div id="header" class="w3-container w3-flatcarrot">
             <h1>Question 3</h1>
           </div>
@@ -229,6 +229,32 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
                 <div> <a href="#seven" onclick="psoriasisAdd();" class="w3-btn w3-black w3-margin-bottom" style="text-align: left; display: inline-block;"> Light Skin: Pink or red patches with silvery scales<br>Dark Skin: purple plaques with gray scales</a> </div>
                 <div> <a href="#seven" onclick="eczemaAdd();" class="w3-btn w3-black w3-margin-top" style="text-align: left; display: inline-block;"> Light Skin: Red or pink patches with small bumps and crusts<br>Dark Skin: dark brown, gray, or purple patches with dry, small bumps</a> </div>
           </div>
+      </div>
+
+      <!-- Page seven prompts user to click a button: "Results", which will then take the user to page eight to see their result percentages.-->
+      <div class="page" id="seven">
+        <div class="w3-container w3-flat-carrot">
+          <h1>Ready to see your results?</h1>
+        </div>
+        
+        <div id="content" class="w3-container"> 
+          <p>   </p><br>
+          <a href="#eight" onclick="showResults();" class="w3-btn w3-black"> Results</a>
+        </div>
+
+      </div>
+
+      <!-- Page eight displays the result percentages -->
+      <div class="page" id="eight">
+        <div class="w3-container w3-flat-carrot">
+          <h1>Results:</h1>
+        </div>
+        
+          <div id="content" class="w3-container"> 
+            <p id="res"></p> 
+            <!-- display results on this page -->
+          </div>
+
       </div>
 
 	
