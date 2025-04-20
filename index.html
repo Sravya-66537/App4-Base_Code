@@ -144,14 +144,14 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
       <div class="page" id="one">
             <!-- Working on Question 1, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App. Question 1 is visible! -->
-          <div id="header" class="w3-container w3-flatcarrot">
+          <div id="header" class="w3-container w3-flat-carrot">
             <h1>Question 1</h1>
           </div>
 
           <div id="content" class="w3-container">
               <p>Where on the body are you experiencing symptoms?</p>
-              <a href="#two" onclick="psoriasisAdd();" class="w3-btn w3-black"> Affects skin on elbows, knees, scalp, lower back and trunk</a>
-              <a href="#two" onclick="eczemaAdd();" class="w3-btn w3-black"> Affects skin folds such as inner elbows and behind knees, as well as face and hands</a>
+              <a href="#two" onclick="psoriasisAdd();" class="w3-btn w3-grey w3-round"> Affects skin on elbows, knees, scalp, lower back and trunk</a>
+              <a href="#two" onclick="eczemaAdd();" class="w3-btn w3-grey w3-round"> Affects skin folds such as inner elbows and behind knees, as well as face and hands</a>
           </div>
 
       </div>   
@@ -159,27 +159,27 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
       <div class="page" id="two">
             <!--Working on Question 2, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App -->
             <!-- Changes are reflected in App! -->
-          <div id="header" class="w3-container w3-flatcarrot">
+          <div id="header" class="w3-container w3-flat-carrot">
             <h1>Question 2</h1>
           </div>
 
           <div id="content" class="w3-container">
               <p>Is the level of itchiness moderate or intense?</p>
-              <a href="#three" onclick="psoriasisAdd();" class="w3-btn w3-black"> Moderate</a>
-              <a href="#three" onclick="eczemaAdd();" class="w3-btn w3-black"> Intense</a>
+              <a href="#three" onclick="psoriasisAdd();" class="w3-btn w3-grey w3-round"> Moderate</a>
+              <a href="#three" onclick="eczemaAdd();" class="w3-btn w3-grey w3-round"> Intense</a>
           </div>
       </div>
 
       <div class="page" id="three">
             <!-- Working on Question 3, going to save on VS Code, push changes from GitHub Desktop to Web, and changes are reflected in App -->
-          <div id="header" class="w3-container w3-flatcarrot">
+          <div id="header" class="w3-container w3-flat-carrot">
             <h1>Question 3</h1>
           </div>
             
           <div id="content" class="w3-container">
               <p>How would you describe the texture of the affected skin?</p>
-              <a href="#four" onclick="psoriasisAdd();" class="w3-btn w3-black"> Thicker, raised rashes and the skin feels scaly</a>
-              <a href="#four" onclick="eczemaAdd();" class="w3-btn w3-black"> Skin feels leathery</a>
+              <a href="#four" onclick="psoriasisAdd();" class="w3-btn w3-grey w3-round"> Thicker, raised rashes and the skin feels scaly</a>
+              <a href="#four" onclick="eczemaAdd();" class="w3-btn w3-grey w3-round"> Skin feels leathery</a>
           </div>
       </div>
 
@@ -189,35 +189,35 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
                   "Cannot GET /three"
                   I realized I was writing <a href="three"...> instead of <a href="#three"...>, and I was also missing some end tags -->
             <!--Changes in page 3 are now reflecting in the App, errors were fixed and now question three (and onwards) is visible!-->
-          <div id="header" class="w3-container w3-flatcarrot">
+          <div id="header" class="w3-container w3-flat-carrot">
             <h1>Question 4</h1>
           </div>
 
           <div id="content" class="w3-container">
               <p>Are you experiencing a stinging or burning sensation?</p>
-              <a href="#five" onclick="psoriasisAdd();" class="w3-btn w3-black"> Yes</a>
-              <a href="#five" onclick="eczemaAdd();" class="w3-btn w3-black"> No</a>
+              <a href="#five" onclick="psoriasisAdd();" class="w3-btn w3-grey w3-round"> Yes</a>
+              <a href="#five" onclick="eczemaAdd();" class="w3-btn w3-grey w3-round"> No</a>
           </div>
       </div>
 
       <div class="page" id="five">
             <!-- Working on Question 5, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App -->
              <!-- Question 5 looks good! -->
-          <div id="header" class="w3-container w3-flatcarrot">
+          <div id="header" class="w3-container w3-flat-carrot">
             <h1>Question 5</h1>
           </div>
 
           <div id="content" class="w3-container">
                 <p>How old are you? Usually, age plays a significant role in the diagnostic process.</p>
-                <!-- Changed "class="w3-btn w3-black"" to "class="w3-btn w3-black w3-margin-bottom"" as the buttons were sitting right on top of one another, and I wanted to create a gap on the page between the two buttons (Update: it worked beautifully!)-->
-                <a href="#six" onclick="eczemaAdd();" class="w3-btn w3-black w3-margin-bottom"> 0-15: Eczema starts in babies and young children, but children will eventually grow out of it with proper treatment.</a> 
-                <a href="#six" onclick="psoriasisAdd();" class="w3-btn w3-black"> 15 or older: Psoriasis is more common in individuals 15 and older, and it is a lifelong condition.</a>
+                <!-- Changed "class="w3-btn w3-grey w3-round"" to "class="w3-btn w3-grey w3-round w3-margin-bottom"" as the buttons were sitting right on top of one another, and I wanted to create a gap on the page between the two buttons (Update: it worked beautifully!)-->
+                <a href="#six" onclick="eczemaAdd();" class="w3-btn w3-grey w3-round w3-margin-bottom"> 0-15: Eczema starts in babies and young children, but children will eventually grow out of it with proper treatment.</a> 
+                <a href="#six" onclick="psoriasisAdd();" class="w3-btn w3-grey w3-round"> 15 or older: Psoriasis is more common in individuals 15 and older, and it is a lifelong condition.</a>
           </div>
       </div>
 
       <div class="page" id="six">
             <!-- Working on Question 6, going to save on VS Code, push changes from GitHub Desktop to Web, and see if changes are reflected in App -->
-          <div id="header" class="w3-container w3-flatcarrot">
+          <div id="header" class="w3-container w3-flat-carrot">
             <h1>Question 6</h1>
           </div>   
 
@@ -226,8 +226,8 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
                 <!-- Adding <br> to see if Light Skin and Dark Skin can be seperate lines within the same button -->
                  <!-- Adding <br> worked, and I was able to change the alignment from center to left by adding in "text-align: left;"
                        also, I made sure the buttons are oriented top to bottom rather than side by side by formatting the buttons to each haev their own <div>...</div>-->
-                <div> <a href="#seven" onclick="psoriasisAdd();" class="w3-btn w3-black w3-margin-bottom" style="text-align: left; display: inline-block;"> Light Skin: Pink or red patches with silvery scales<br>Dark Skin: purple plaques with gray scales</a> </div>
-                <div> <a href="#seven" onclick="eczemaAdd();" class="w3-btn w3-black w3-margin-top" style="text-align: left; display: inline-block;"> Light Skin: Red or pink patches with small bumps and crusts<br>Dark Skin: dark brown, gray, or purple patches with dry, small bumps</a> </div>
+                <div> <a href="#seven" onclick="psoriasisAdd();" class="w3-btn w3-grey w3-round w3-margin-bottom" style="text-align: left; display: inline-block;"> Light Skin: Pink or red patches with silvery scales<br>Dark Skin: purple plaques with gray scales</a> </div>
+                <div> <a href="#seven" onclick="eczemaAdd();" class="w3-btn w3-grey w3-round w3-margin-top" style="text-align: left; display: inline-block;"> Light Skin: Red or pink patches with small bumps and crusts<br>Dark Skin: dark brown, gray, or purple patches with dry, small bumps</a> </div>
           </div>
       </div>
 
@@ -239,7 +239,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
         
         <div id="content" class="w3-container"> 
           <p>   </p><br>
-          <a href="#eight" onclick="showResults();" class="w3-btn w3-black"> Results</a>
+          <a href="#eight" onclick="showResults();" class="w3-btn w3-grey w3-round"> Results</a>
         </div>
 
       </div>
@@ -257,6 +257,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
       </div>
 
+      <!-- After finishing the code, I went back and changed all of my black buttons to match the grey, round button on page one using the replace all feature. (w3-black changed to w3-grey w3-round)-->
 	
 </body>
 </html>
